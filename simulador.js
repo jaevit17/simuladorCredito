@@ -45,5 +45,12 @@ function calcular(){
     //Mostrar en pantalla valor Interes a pagar
     let cmpInteresAPagar=document.getElementById("spnInteresPagar");
     cmpInteresAPagar.textContent=resultInteres;
+
+
+    //Llamar a calcularTotalPagar
+    let resultTotalAPagar=calcularTotalPagar(monto,resultInteres);
+    //Mostrar en pantalla valor Total prestamo
+    let cmpTotalPrestamo=document.getElementById("spnTotalPrestamo");
+    cmpTotalPrestamo.textContent=resultTotalAPagar;
     
 }

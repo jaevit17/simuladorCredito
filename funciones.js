@@ -23,3 +23,11 @@ function calcularInteresSimple(monto,tasa,plazoAnios){
     let interes=plazoAnios*monto*(tasa/100);
     return interes;
 } 
+
+
+//Calculo valor total a pagar: monto solicitado + interes
+function calcularTotalPagar(monto,interes){
+    const IMPUESTOS_SOLCA=100;
+    let valorTotal=monto+interes+IMPUESTOS_SOLCA;
+    return valorTotal;
+}

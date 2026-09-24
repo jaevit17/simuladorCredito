@@ -39,3 +39,14 @@ function calcularCuotaMensual(total,plazoAnios){
     let cuotaMensual=total/meses;
     return cuotaMensual;
 }
+
+
+/*Calcula Aprobacion de Credito
+  capacidad de pago > cuota mensual == true
+  capacidad de pago < cuota mensual == false */
+function aprobarCredito(capacidadPago,cuotaMensual){
+    if(capacidadPago>cuotaMensual){
+        return true;
+    }
+    return false;
+}

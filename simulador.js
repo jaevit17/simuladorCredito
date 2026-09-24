@@ -60,5 +60,18 @@ function calcular(){
       Redondeo a 2 decimales cumpliendo el Caso de Prueba 1,2 */
     let cmpCuotaMensual=document.getElementById("spnCuotaMensual");
     cmpCuotaMensual.textContent=resultCuotaMensual.toFixed(2);
+
+    //Llamar a aprobarCredito
+    let resultAprobarCredito=aprobarCredito(resultCapacidPago,resultCuotaMensual);
+    //Recuperar valor Estado credito
+    let cmpEstadoCredito=document.getElementById("spnEstadoCredito");
+    /*true->CREDITO APROBADO
+      false->CREDITO RECHAZADO*/
+    if(resultAprobarCredito==true){
+        cmpEstadoCredito.textContent="CREDITO APROBADO";
+    }if(resultAprobarCredito==false){
+        cmpEstadoCredito.textContent="CREDITO RECHAZADO";
+    }
+    
     
 }

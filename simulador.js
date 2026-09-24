@@ -52,5 +52,13 @@ function calcular(){
     //Mostrar en pantalla valor Total prestamo
     let cmpTotalPrestamo=document.getElementById("spnTotalPrestamo");
     cmpTotalPrestamo.textContent=resultTotalAPagar;
+
+
+    //Llamar a calcularCuotaMensual
+    let resultCuotaMensual=calcularCuotaMensual(resultTotalAPagar,plazo);
+    /*Mostrar en pantalla valor Cuota mensual
+      Redondeo a 2 decimales cumpliendo el Caso de Prueba 1,2 */
+    let cmpCuotaMensual=document.getElementById("spnCuotaMensual");
+    cmpCuotaMensual.textContent=resultCuotaMensual.toFixed(2);
     
 }

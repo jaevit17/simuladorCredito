@@ -9,3 +9,10 @@ function calcularDisponible(ingresos,egresos){
     }
     return disponible;
 }
+
+
+//Calculo capacidad de pago: 50% del disponible
+function calcularCapacidadPago(montoDisponible){
+let capacidPago=montoDisponible/2;
+return capacidPago;
+}

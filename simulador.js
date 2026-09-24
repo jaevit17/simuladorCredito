@@ -24,5 +24,26 @@ function calcular(){
       Redondeo a 2 decimales cumpliendo el Caso de Prueba 3 */
     let cmpCapacidadPago=document.getElementById("spnCapacidadPago");
     cmpCapacidadPago.textContent=resultCapacidPago.toFixed(2);
+
+    
+    //Recupera Monto y muestra en Entero
+    let cmpMonto=document.getElementById("txtMonto");
+    let montoText=cmpMonto.value;
+    let monto=parseInt(montoText);
+    //Recupera Plazo en años y muestra en Entero
+    let cmpPlazo=document.getElementById("txtPlazo");
+    let plazoText=cmpPlazo.value;
+    let plazo=parseInt(plazoText);
+    //Recupera Tasa de Interes anual y muestra en Entero
+    let cmpTasa=document.getElementById("txtTasaInteres");
+    let tasaText=cmpTasa.value;
+    let tasa=parseInt(tasaText);
+
+
+    //Llamar a calcularInteresSimple
+    let resultInteres=calcularInteresSimple(monto,tasa,plazo);
+    //Mostrar en pantalla valor Interes a pagar
+    let cmpInteresAPagar=document.getElementById("spnInteresPagar");
+    cmpInteresAPagar.textContent=resultInteres;
     
 }

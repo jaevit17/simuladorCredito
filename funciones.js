@@ -16,3 +16,10 @@ function calcularCapacidadPago(montoDisponible){
 let capacidPago=montoDisponible/2;
 return capacidPago;
 }
+
+
+//Calculo interes simple de acuerdo al: monto-tasa-plazos
+function calcularInteresSimple(monto,tasa,plazoAnios){
+    let interes=plazoAnios*monto*(tasa/100);
+    return interes;
+} 

@@ -8,11 +8,21 @@ function calcular(){
     let cmpEgresos=document.getElementById("txtEgresos");
     let egresosText=cmpEgresos.value;
     let egresos=parseFloat(egresosText);
+
+
     //LLamar a calcularDisponible
     let resultDisponible=calcularDisponible(ingresos,egresos);
     /*Mostrar en pantalla valor Disponible
       Redondeo a 2 decimales cumpliendo el Caso de Prueba 3 */
     let cmpDisponible=document.getElementById("spnDisponible");
     cmpDisponible.textContent=resultDisponible.toFixed(2);
+
+
+    //Lamar a calcularCapacidadPago
+    let resultCapacidPago=calcularCapacidadPago(resultDisponible);
+    /*Mostrar en pantalla valor Capacidad de pago 
+      Redondeo a 2 decimales cumpliendo el Caso de Prueba 3 */
+    let cmpCapacidadPago=document.getElementById("spnCapacidadPago");
+    cmpCapacidadPago.textContent=resultCapacidPago.toFixed(2);
     
 }

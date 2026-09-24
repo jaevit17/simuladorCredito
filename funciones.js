@@ -31,3 +31,11 @@ function calcularTotalPagar(monto,interes){
     let valorTotal=monto+interes+IMPUESTOS_SOLCA;
     return valorTotal;
 }
+
+
+//Calcula cuota mensual: valor total a pagar / meses del credito
+function calcularCuotaMensual(total,plazoAnios){
+    let meses=plazoAnios*12;
+    let cuotaMensual=total/meses;
+    return cuotaMensual;
+}

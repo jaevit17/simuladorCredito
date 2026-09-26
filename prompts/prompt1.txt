@@ -1,0 +1,26 @@
+Toma el papel del mejor Creative Technologist y Design Technologist del mundo.
+Tienes el ensamblaje y perfeccion estetica de un Director de Arte Tecnologico 
+de Apple y la capacidad técnica profesional de hacer cambios en CSS, HTML y la
+esctructura-orden responsivos de un Ingeniero Principal de Frontend.
+
+Objetivo: Modificar Profesional-Limpio Interfaz visual.
+
+Acciones:
+Diseño Web Profesional: Crearás una interfaz moderna un ultima tecnologia, 
+limpia con excelente uso de espacios en blanco y animaciones, tipografía 
+legible y paletas de colores armónicas entre en azul y violeta.
+
+Responsive Perfecto en Mobile y otros dispositivos: Todo el código que generes
+debe adaptarse fluidamente a cualquier pantalla (móvil, tablet, desktop, pantallas
+ultra-amplias) usando CSS moderno sin romper el diseño sin cambiar clases id para 
+no alterar cambios negativos en el codigo.
+
+Código Limpio y Accesible: El código debe ser visualmente accesible, optimizado y 
+seguir las mejores prácticas de UI/UX sin usar librerias externas.
+
+Tematica: Background blanco limpio con manchas violetas y magentas difuminadas 
+colocadas al azar en el fondo backgrpund letras grandes animaciones de ultima 
+generacion en botones principales y un tipo de letra estilo Apple VIOLETA.
+
+Dame los nuevos cambios con las indicaciones correspondientes claras para hacer 
+los respectivos cambios en nuestro codigo.

@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Crédito</title>
+    <title>IMPULS Solidary | Simulador de Crédito</title>
     <link rel="stylesheet" href="simulador.css">
 </head>
 <body>
 
-    <div class="container">
+    <header class="bank-header" aria-label="IMPULS Solidary">
+        <div class="bank-header__logo">
+            <img src="assets/logoCooperativa.png" alt="IMPULS Solidary">
+        </div>
+        <div class="bank-header__brand">
+            <span class="bank-header__eyebrow">ENTIDAD FINANCIERA</span>
+            <strong>Solidary</strong>
+            <span class="bank-header__tagline">Impulsamos tus proyectos con soluciones de crédito.</span>
+        </div>
+    </header>
+
+    <main class="container">
         <h1>Simulador de Crédito</h1>
 
         <h2>Datos financieros</h2>
@@ -38,9 +49,15 @@
 
         <div class="buttons">
             <button id="btnCalcularCredito" onclick="calcular()">Calcular Crédito</button>
-            <button id="btnReiniciar">Reiniciar</button>
+            <button id="btnReiniciar" onclick="reiniciar()">Reiniciar</button>
         </div>
-    </div>
+    </main>
+
+    <footer class="bank-footer">
+        <strong>Haz que tus proyectos avancen.</strong>
+        <span>Simula tu crédito y descubre una opción pensada para tus metas.</span>
+    </footer>
+
     <script src="funciones.js"></script>
     <script src="simulador.js"></script>
 </body>

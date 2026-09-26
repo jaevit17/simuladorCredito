@@ -50,3 +50,38 @@ function aprobarCredito(capacidadPago,cuotaMensual){
     }
     return false;
 }
+
+
+//Funcion Reiniciar vacia las Cajas de Texto
+function reiniciar() {
+
+    txtIngresos.value = "";
+    txtEgresos.value = "";
+    txtMonto.value = "";
+    txtPlazo.value = "";
+    txtTasaInteres.value = "";
+
+    spnDisponible.textContent = "";
+    spnCapacidadPago.textContent = "";
+    spnInteresPagar.textContent = "";
+    spnTotalPrestamo.textContent = "";
+    spnCuotaMensual.textContent = "";
+    spnEstadoCredito.textContent = "ANALIZANDO...";
+}
+
+
+//Funcion para simular animacion de cargar en: ANALIANDO...
+let puntos = 0;
+
+setInterval(function () {
+
+    puntos++;
+
+    if (puntos > 3) {
+        puntos = 0;
+    }
+
+    document.getElementById("spnEstadoCredito").textContent =
+        "ANALIZANDO" + ".".repeat(puntos);
+
+}, 500);

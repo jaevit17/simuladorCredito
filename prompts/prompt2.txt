@@ -1,0 +1,15 @@
+Toma un rol de diseñador grafico en software web.
+Objetivo: Mejorar el Aspecto visual en colores y Animaciones
+
+Acciones:
+1. Usa mejor los colores a manera visual representativa que tengan 
+presencia una web imponente.
+
+2. Mejora las animaciones, quita las animaciones basicas actuales 
+en botones de accion y usa animaciones limpias modernas.
+
+3. Haz una mejor visibilidad en contraste en letras para que se 
+persivan en cualquier ambiente visual
+
+Dame los nuevos cambios necesarios con las instrucciones para 
+hacer los respectivos cambios.

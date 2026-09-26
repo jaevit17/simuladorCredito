@@ -1,0 +1,35 @@
+ Toma un rol de diseñador grafico en software web y de Diseñador Grafico
+
+Objetivo: Implementacion de Estilo Entidad Bancario IMPULS SOLIDARY
+
+Acciones:
+1. Divide el body Background total en dos colores a la izquierda violeta 
+con repetidas secciones del logoCooperativa.png como si se repitiera seguido
+uno de otra mismo logo todos los logos repetidos deben ser casi transparentes.
+
+2.Haz una mejor visibilidad en mini secciones donde se muestras los resultados 
+podrias hacer un violeta pastel para esas partes donde se muestran los resultados 
+corrige el respectivo contraste en letras para que se persivan en cualquier ambiente 
+visual con el nuevo cambio solo en partes donde se muestran resultados, las partes 
+donde el usuario ingresa informacion deben ser blancas tal cual ya se encuentran en 
+este momento sin alterar cambios sobre ellos.
+
+3. La sombra del container principal debe ser con mas presencia y de color violeta 
+igual.
+
+4. Debes añadir un ENCABEZADO profesional tematica Entidad bancaria IMPULS Solidary,
+has con cuidado y perfeccion los cambios en html para tener un encabezado profesional.
+Detalles de Encabezado, como hay una division en color en todo el background izquierda
+violeta derecha blanco con manchas violetas magentas difuminadas a la izquierda en el 
+encambezado usa el logoCooperativa.png que al ser blanco contrastara bien con el lado 
+violeta mientras usa el lado blanco para añadir Solidary en negro y info que creas 
+necesario y profesional integrar.
+
+5. Integra un pie de pagina basico con alguna idea corta de marketing para que 
+soliciten un credito Ej. nosotros tenemos el mejor recort en bajo interes..
+
+6. Perfecciona el Responsive me parece que note errores al abrir en celular corrigue 
+a la perfeccion detalles de responsive sin dañar cambios.
+
+Dame los nuevos cambios necesarios con las instrucciones para hacer los respectivos 
+cambios.
